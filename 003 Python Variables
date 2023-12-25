@@ -2,6 +2,7 @@ print("Creating Variables")
 
 x = 5
 y = "John"
+x="6"
 print(x)
 print(y)
 
@@ -17,3 +18,21 @@ print(x)
 print(y)
 print(z)
 
+
+myvar = "myvar"
+print("myvar")
+
+my_var = "John"
+print("my_var")
+
+_my_var = "_my_var"
+print("_my_var")
+
+myVar = "myVar"
+print("myVar")
+
+MYVAR = "MYVAR"
+print("MYVAR")
+
+myvar2 = "myvar2"
+print("myvar2")
