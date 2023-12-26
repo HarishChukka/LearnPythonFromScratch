@@ -72,7 +72,32 @@ my_function("Babu")
 my_function("hello")
 my_function(name = "Babu", lname = "Appu")
 
+print("!!!!!!!!!!!! \n")
+def my_function(calls):
+  for tempz in calls:
+    print(" 2 His last name is " + tempz +" ")
 
+name=["Babu","hello","Appu","aniuman"]
+my_function(name)
 
-#, name = "Appu",name="Hani",name="harishjajd")
+print("!!!!!!!!!!!! \n")
+def my_function(*calls):
+  return 3*calls
 
+#print(" 2 His last name is " + tempz +" ")
+
+name=["Babu","hello","Appu","aniuman"]
+print(my_function(name))
+
+print("!!!!!!!!!!!! \n")
+def tri_recursion(k):
+  if(k < 20):
+    
+    #result = k + tri_recursion(k +1)
+    print(result)
+  else:
+    result = 0
+  return result
+
+print("\n\nRecursion Example Results")
+tri_recursion(3)
