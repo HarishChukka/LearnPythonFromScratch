@@ -36,3 +36,13 @@ print("MYVAR")
 
 myvar2 = "myvar2"
 print("myvar2")
+
+"""
+Illegal variable names:
+
+
+2myvar = "John"  Starting with number
+my-var = "John"  -- in varibale name
+my var = "John" Space in varibale name
+
+"""
