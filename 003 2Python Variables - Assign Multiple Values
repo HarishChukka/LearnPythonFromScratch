@@ -11,9 +11,10 @@ print(x)
 print(y)
 print(z)
 
-print("\nUnpack a Collection")
+print("\n Unpack a Collection")
 fruits = ["apple", "banana", "cherry"]
 x, y, z = fruits
+print(type(fruits))
 print(x)
 print(y)
 print(z)
